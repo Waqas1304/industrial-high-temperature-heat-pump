@@ -1,6 +1,5 @@
 # Industrial high-temperature heat pumps vs gas boilers: what carbon price closes the gap?
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/waqassaleem1304/ihthp-lcoh/blob/main/IHTHP_LCOH_analysis.ipynb)
 
 A techno-economic model that compares an industrial high-temperature heat pump (IHTHP) with a natural gas steam boiler for 120–150 °C process heat. It links a thermodynamic cycle model (CoolProp) to a levelised cost of heat (LCOH) calculation, then asks how EU carbon prices and electricity/gas price ratios change the result.
 
@@ -55,13 +54,6 @@ Break-even carbon price by supply temperature (60 °C source, EU-average prices)
 | 140 °C | 2.03 | €241/t |
 | 150 °C | 1.63 | €344/t |
 
-![Break-even carbon price](figures/fig4_breakeven.png)
-
-![Scenario heatmap](figures/fig3_scenarios.png)
-
-![Sensitivity](figures/fig5_sensitivity.png)
-
-Other figures: [COP vs temperature](figures/fig1_cop.png), [LCOH breakdown](figures/fig2_lcoh_breakdown.png).
 
 ## What the results suggest
 
@@ -84,16 +76,6 @@ There is also a regulatory coverage gap. EU ETS1 only covers combustion installa
 
 Multi-stage and cascade cycles, country-specific tariff and levy structures, hourly price profiles with storage, sector-specific temperature profiles, and the cost of regulatory compliance included in the LCOH.
 
-## How to run
-
-Open the notebook in Google Colab using the badge above and run all cells. To run it locally:
-
-```bash
-pip install -r requirements.txt
-jupyter notebook IHTHP_LCOH_analysis.ipynb
-```
-
-All inputs are in one dictionary (`P`) near the top of the notebook, so any assumption can be changed and the whole analysis rerun.
 
 ## References
 
@@ -114,4 +96,4 @@ All inputs are in one dictionary (`P`) near the top of the notebook, so any assu
 
 ## Author
 
-Muhammad Waqas Saleem, energy engineer (Erasmus Mundus ME3+). [LinkedIn](https://www.linkedin.com/in/muhammadwaqassaleem1304/) · [GitHub](https://github.com/waqassaleem1304)
+Muhammad Waqas Saleem (Erasmus Mundus ME3+). [LinkedIn](https://www.linkedin.com/in/muhammadwaqassaleem1304/) · [GitHub](https://github.com/waqassaleem1304)
