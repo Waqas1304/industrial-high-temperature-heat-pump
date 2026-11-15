@@ -54,14 +54,31 @@ Break-even carbon price by supply temperature (60 °C source, EU-average prices)
 | 140 °C | 2.03 | €241/t |
 | 150 °C | 1.63 | €344/t |
 
+### Break-even Carbon Price
+![Break-even carbon price](fig4_breakeven.png)
+
+### Scenario Analysis
+![Scenario heatmap](fig3_scenarios.png)
+
+### Sensitivity Analysis
+![Sensitivity analysis](fig5_sensitivity.png)
+
+### Other Results
+**COP vs Temperature**
+
+![COP vs temperature](fig1_cop.png)
+
+**LCOH Breakdown**
+
+![LCOH breakdown](fig2_lcoh_breakdown.png)
 
 ## What the results suggest
 
-At 2025 EU-average prices the heat pump is about 36 €/MWh more expensive than the gas boiler at 140 °C. Energy cost explains most of this. Electricity costs about three times as much as gas per MWh, and a COP of 2 is not enough to make up for it.
+At 2025 EU-average prices, the heat pump is about 36 €/MWh more expensive than the gas boiler at 140 °C. Energy cost explains most of this. Electricity costs about three times as much as gas per MWh, and a COP of 2 is not enough to make up for it.
 
 The electricity/gas price ratio has the largest effect on the result. Moving the ratio from 3.0 to 2.0 cuts the break-even carbon price from €241/t to €100/t. Raising CAPEX by 0.2 M€/MW, by contrast, moves it by only about €14/t. So policies that reduce levies and network charges on industrial electricity may do more for heat pump uptake than a higher ETS price alone.
 
-Supply temperature also matters a lot. At 120 °C the break-even price (€110/t) is close to forecast 2030 ETS prices. At 150 °C it is more than four times today's price.
+Supply temperature also matters a lot. At 120 °C, the break-even price (€110/t) is close to forecast 2030 ETS prices. At 150 °C it is more than four times today's price.
 
 There is also a regulatory coverage gap. EU ETS1 only covers combustion installations above 20 MW total rated thermal input (Directive 2003/87/EC, Annex I) [11]. Many small and medium industrial boilers therefore face no carbon price at all, so the break-even values above are out of reach for them under current rules. ETS2, which will put a price on fuels for these users, has been postponed to 2028 [12].
 
@@ -70,7 +87,7 @@ There is also a regulatory coverage gap. EU ETS1 only covers combustion installa
 - Single-stage cycle with constant isentropic efficiency, one refrigerant and no part-load behaviour.
 - Annual-average EU prices: no hourly prices, no value from flexibility or thermal storage, and no country-level differences.
 - HTHP investment cost is held constant across sink temperatures.
-- No grid connection costs, subsidies, free ETS allocation or indirect carbon costs in the electricity price.
+- No grid connection costs, subsidies, free ETS allocation, or indirect carbon costs in the electricity price.
 
 ## Possible extensions
 
@@ -91,7 +108,7 @@ Multi-stage and cascade cycles, country-specific tariff and levy structures, hou
 10. LSEG Carbon Research (2025). *EU ETS Long-Term Supply, Demand & Price Forecast*. https://www.lseg.com/content/dam/data-analytics/en_us/documents/reports/lseg-eu-ets-supply-demand-and-pricing-forecast-summary.pdf
 11. Directive 2003/87/EC establishing a scheme for greenhouse gas emission allowance trading, Annex I (as amended).
 12. ICAP (2026). EU officially adopts the 2040 climate target, postpones ETS 2 by one year. https://icapcarbonaction.com/en/news/eu-reaches-agreement-2040-climate-target-postpones-ets-2-one-year
-13. Arpagaus, C., Bless, F., Uhlmann, M., Schiffmann, J., Bertsch, S.S. (2018). High temperature heat pumps: Market overview, state of the art, research status, refrigerants, and application potentials. *Energy* 152, 985–1010.
+13. Arpagaus, C., Bless, F., Uhlmann, M., Schiffmann, J., Bertsch, S.S. (2018). High-temperature heat pumps: Market overview, state of the art, research status, refrigerants, and application potentials. *Energy* 152, 985–1010.
 14. Bell, I.H., Wronski, J., Quoilin, S., Lemort, V. (2014). Pure and pseudo-pure fluid thermophysical property evaluation and the open-source thermophysical property library CoolProp. *Industrial & Engineering Chemistry Research* 53(6), 2498–2508.
 
 ## Author
